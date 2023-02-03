@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.deneme.block.SteamBlock;
+import net.mcreator.deneme.block.OresOreBlock;
 import net.mcreator.deneme.DenemeMod;
 
 public class DenemeModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, DenemeMod.MODID);
 	public static final RegistryObject<Block> STEAM = REGISTRY.register("steam", () -> new SteamBlock());
+	public static final RegistryObject<Block> ORES_ORE = REGISTRY.register("ores_ore", () -> new OresOreBlock());
 }

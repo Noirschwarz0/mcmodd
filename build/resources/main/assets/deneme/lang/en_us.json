@@ -1,5 +1,7 @@
 {
+  "item.deneme.ores_ingot": "Tin Ingot",
   "block.deneme.steam": "Steam",
+  "block.deneme.ores_ore": "Tin Ore",
   "fluid.deneme.steam": "Steam",
   "item.deneme.steam_bucket": "Steam Bucket"
 }

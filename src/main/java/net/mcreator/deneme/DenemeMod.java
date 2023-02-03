@@ -30,8 +30,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.deneme.init.DenemeModMenus;
+import net.mcreator.deneme.init.DenemeModItems;
 import net.mcreator.deneme.init.DenemeModFluids;
 import net.mcreator.deneme.init.DenemeModFluidTypes;
+import net.mcreator.deneme.init.DenemeModFeatures;
 import net.mcreator.deneme.init.DenemeModBlocks;
 
 import java.util.function.Supplier;
@@ -52,7 +54,9 @@ public class DenemeMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		DenemeModBlocks.REGISTRY.register(bus);
+		DenemeModItems.REGISTRY.register(bus);
 
+		DenemeModFeatures.REGISTRY.register(bus);
 		DenemeModFluids.REGISTRY.register(bus);
 		DenemeModFluidTypes.REGISTRY.register(bus);
 

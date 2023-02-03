@@ -20,13 +20,70 @@
         "gb": false
       },
       "path": "~/Steam"
+    },
+    {
+      "name": "OresIngot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_ingot",
+      "path": "~/Ores"
+    },
+    {
+      "name": "OresOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "OresBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_block",
+      "path": "~/Ores"
+    },
+    {
+      "name": "OresOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_ore_block_recipe",
+      "path": "~/Ores"
+    },
+    {
+      "name": "OresBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_block_ore_recipe",
+      "path": "~/Ores"
+    },
+    {
+      "name": "OresOreSmelting",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_ore_smelting",
+      "path": "~/Ores"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.deneme.ores_block": "Block of Ores",
+      "item.deneme.ores_ingot": "Tin Ingot",
       "block.deneme.steam": "Steam",
+      "block.deneme.ores_ore": "Tin Ore",
       "fluid.deneme.steam": "Steam",
       "item.deneme.steam_bucket": "Steam Bucket"
     }
@@ -45,6 +102,10 @@
       },
       {
         "name": "Steam",
+        "children": []
+      },
+      {
+        "name": "Ores",
         "children": []
       }
     ]
