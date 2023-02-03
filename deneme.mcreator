@@ -17,7 +17,7 @@
       "locked_code": false,
       "registry_name": "steam",
       "metadata": {
-        "gb": false
+        "gb": true
       },
       "path": "~/Steam"
     },

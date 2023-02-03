@@ -10,14 +10,15 @@ import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.particles.ParticleOptions;
 
+import net.mcreator.deneme.init.DenemeModItems;
 import net.mcreator.deneme.init.DenemeModFluids;
 import net.mcreator.deneme.init.DenemeModFluidTypes;
 import net.mcreator.deneme.init.DenemeModBlocks;
 
 public abstract class SteamFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> DenemeModFluidTypes.STEAM_TYPE.get(),
-			() -> DenemeModFluids.STEAM.get(), () -> DenemeModFluids.FLOWING_STEAM.get()).explosionResistance(102f).tickRate(1).slopeFindDistance(1)
-			.block(() -> (LiquidBlock) DenemeModBlocks.STEAM.get());
+			() -> DenemeModFluids.STEAM.get(), () -> DenemeModFluids.FLOWING_STEAM.get()).explosionResistance(102f).tickRate(1000)
+			.slopeFindDistance(1).bucket(() -> DenemeModItems.STEAM_BUCKET.get()).block(() -> (LiquidBlock) DenemeModBlocks.STEAM.get());
 
 	private SteamFluid() {
 		super(PROPERTIES);
