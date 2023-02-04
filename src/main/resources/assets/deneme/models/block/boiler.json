@@ -1,0 +1,13 @@
+{
+  "parent": "deneme:custom/boiler",
+  "textures": {
+    "all": "deneme:blocks/tin_ore",
+    "particle": "deneme:blocks/tin_ore",
+    "0": "deneme:blocks/tin_ore",
+    "1": "deneme:blocks/tin_ore",
+    "2": "deneme:blocks/tin_ore",
+    "3": "deneme:blocks/tin_ore",
+    "missing": "deneme:blocks/tin_ore_3"
+  },
+  "render_type": "solid"
+}

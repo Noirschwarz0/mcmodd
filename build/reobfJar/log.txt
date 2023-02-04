@@ -125,7 +125,7 @@ Remapping jar... 10%
 Remapping jar... 20%
 Remapping jar... 30%
 Remapping jar... 40%
-Remapping jar... 51%
+Remapping jar... 50%
 Remapping jar... 61%
 Remapping jar... 71%
 Remapping jar... 81%

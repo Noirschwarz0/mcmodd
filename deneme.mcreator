@@ -56,6 +56,15 @@
       "locked_code": false,
       "registry_name": "boiler_gui",
       "path": "~/Boiler/Gui"
+    },
+    {
+      "name": "Boiler",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boiler",
+      "path": "~/Boiler/Block"
     }
   ],
   "variable_elements": [],
@@ -63,6 +72,7 @@
   "language_map": {
     "en_us": {
       "item.deneme.raw_tin": "Raw Tin",
+      "block.deneme.boiler": "Boiler",
       "item.deneme.tin_ingot": "Tin Ingot",
       "block.deneme.steam": "Steam",
       "block.deneme.tin_ore": "Tin Ore",

@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "tin_ore",
+        "1": "tin_ore",
+        "2": "tin_ore",
+        "3": "tin_ore",
+        "missing": "tin_ore_3"
+      },
+      "name": "default"
+    }
+  }
+}

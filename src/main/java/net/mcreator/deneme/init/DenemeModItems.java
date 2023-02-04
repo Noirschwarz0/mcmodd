@@ -24,6 +24,7 @@ public class DenemeModItems {
 	public static final RegistryObject<Item> TIN_INGOT = REGISTRY.register("tin_ingot", () -> new OresIngotItem());
 	public static final RegistryObject<Item> TIN_ORE = block(DenemeModBlocks.TIN_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RAW_TIN = REGISTRY.register("raw_tin", () -> new RawTinItem());
+	public static final RegistryObject<Item> BOILER = block(DenemeModBlocks.BOILER, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -35,6 +35,7 @@ import net.mcreator.deneme.init.DenemeModFluids;
 import net.mcreator.deneme.init.DenemeModFluidTypes;
 import net.mcreator.deneme.init.DenemeModFeatures;
 import net.mcreator.deneme.init.DenemeModBlocks;
+import net.mcreator.deneme.init.DenemeModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -56,6 +57,7 @@ public class DenemeMod {
 		DenemeModBlocks.REGISTRY.register(bus);
 		DenemeModItems.REGISTRY.register(bus);
 
+		DenemeModBlockEntities.REGISTRY.register(bus);
 		DenemeModFeatures.REGISTRY.register(bus);
 		DenemeModFluids.REGISTRY.register(bus);
 		DenemeModFluidTypes.REGISTRY.register(bus);
