@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "deneme:blocks/tin_ore_two",
-    "particle": "deneme:blocks/tin_ore_two"
-  },
-  "render_type": "solid"
-}

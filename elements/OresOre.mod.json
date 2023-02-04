@@ -2,7 +2,7 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "tin_ore_two",
+    "texture": "tin_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -44,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:OresOre"
+      "value": "CUSTOM:RawTin"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

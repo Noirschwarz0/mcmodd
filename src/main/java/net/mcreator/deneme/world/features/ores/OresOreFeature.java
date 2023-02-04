@@ -33,14 +33,14 @@ public class OresOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new OresOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("deneme:ores_ore", FEATURE,
+		CONFIGURED_FEATURE = FeatureUtils.register("deneme:tin_ore", FEATURE,
 				new OreConfiguration(List.of(
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()),
-								DenemeModBlocks.ORES_ORE.get().defaultBlockState()),
+								DenemeModBlocks.TIN_ORE.get().defaultBlockState()),
 						OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()),
-								DenemeModBlocks.ORES_ORE.get().defaultBlockState())),
+								DenemeModBlocks.TIN_ORE.get().defaultBlockState())),
 						7));
-		PLACED_FEATURE = PlacementUtils.register("deneme:ores_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(11), InSquarePlacement.spread(),
+		PLACED_FEATURE = PlacementUtils.register("deneme:tin_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(11), InSquarePlacement.spread(),
 				HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(40)), BiomeFilter.biome()));
 		return FEATURE;
 	}

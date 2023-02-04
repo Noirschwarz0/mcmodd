@@ -17,5 +17,5 @@ import net.mcreator.deneme.DenemeMod;
 @Mod.EventBusSubscriber
 public class DenemeModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, DenemeMod.MODID);
-	public static final RegistryObject<Feature<?>> ORES_ORE = REGISTRY.register("ores_ore", OresOreFeature::feature);
+	public static final RegistryObject<Feature<?>> TIN_ORE = REGISTRY.register("tin_ore", OresOreFeature::feature);
 }

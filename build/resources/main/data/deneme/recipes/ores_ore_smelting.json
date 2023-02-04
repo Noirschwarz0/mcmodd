@@ -3,7 +3,7 @@
   "experience": 0.001,
   "cookingtime": 200,
   "ingredient": {
-    "item": "deneme:ores_ore"
+    "item": "deneme:raw_tin"
   },
-  "result": "deneme:ores_ingot"
+  "result": "deneme:tin_ingot"
 }

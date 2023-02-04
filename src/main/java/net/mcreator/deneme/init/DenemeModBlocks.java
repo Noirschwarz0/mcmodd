@@ -17,5 +17,5 @@ import net.mcreator.deneme.DenemeMod;
 public class DenemeModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, DenemeMod.MODID);
 	public static final RegistryObject<Block> STEAM = REGISTRY.register("steam", () -> new SteamBlock());
-	public static final RegistryObject<Block> ORES_ORE = REGISTRY.register("ores_ore", () -> new OresOreBlock());
+	public static final RegistryObject<Block> TIN_ORE = REGISTRY.register("tin_ore", () -> new OresOreBlock());
 }

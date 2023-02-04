@@ -11,14 +11,14 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
-import net.mcreator.deneme.client.gui.AbcScreen;
+import net.mcreator.deneme.client.gui.BoilerGuiScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class DenemeModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(DenemeModMenus.ABC.get(), AbcScreen::new);
+			MenuScreens.register(DenemeModMenus.BOILER_GUI.get(), BoilerGuiScreen::new);
 		});
 	}
 }

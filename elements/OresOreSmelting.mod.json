@@ -9,7 +9,7 @@
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:OresOre"
+      "value": "CUSTOM:RawTin"
     },
     "smeltingReturnStack": {
       "value": "CUSTOM:OresIngot"
